@@ -40,14 +40,13 @@ Pour notre projet nous avons décider de faire une application qui permet aux ut
 
 **Etape 1**
 Au tout début nous avons commencer à créer un tout nouveau répertoir dans Githube pour que notre groupe puisse avoir
-un moyen de communication pour se partager les dossiers de notre projet se qui donne comme ceci :
+un moyen de communication pour se partager les dossiers de notre projet Voici l'arborescence du projet:
 
 ![alt text](./img/image.png)
 
 
 **Etape 2**
-Pour commencer notre projet nous avons commencer à programmer en HTML et CSS la base de notre application
-qui donne comme ceci :
+Pour commencer notre projet nous avons commencer à programmer en HTML et CSS la base de notre application. Voire figure ci-dessous
 
 ![alt text](./img/image-1.png)
 
@@ -68,7 +67,7 @@ nous permet mettre à jour les vidéos dans le stockage local, pour charger les 
 ![alt text](./img/image-10.png) ![alt text](./img/image-11.png)
 
 **Etape 4 : La page de connexion**
-Pour la page de connexion nous avons utiliser le language JavaScript pour que notre application est des interactions et dynamique.
+Pour la page de connexion nous avons utiliser le language JavaScript pour que notre application est des interactions et soit dynamique.
 Ce language nous sert pour la page de connexion de notre application, le bouton du téléchargement, le bouton supprimer et enfin le
 bouton d'importer.
 
@@ -77,7 +76,7 @@ bouton d'importer.
 
 
 **Etape 5 : Le bouton Téléchargement**
-Pour le bouton téléchargement nous utiliser un site internet qui nous permet d'avoir le lien de notre vidéo en public et de l'avoir
+Pour le bouton téléchargement nous avons utiliser un site internet qui nous permet d'avoir le lien de notre vidéo en public et de l'avoir
 en lecteur MP4.
 
 **Démonstration**					**|**		**Code JavaScript**
@@ -85,7 +84,7 @@ en lecteur MP4.
 
 
 **Etape 6 : Le bouton Supprimer**
-Pour le bouton supprimer c'est la même chose que le bouton télécharger on le procède le code dans le même fichier
+Pour le bouton supprimer c'est la même chose que le bouton télécharger, on procède le code dans le même fichier
 
 **Code JavaScript pour le bouton supprimer**
 ![alt text](./img/image-7.png)
