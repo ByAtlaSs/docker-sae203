@@ -46,6 +46,12 @@ Ensuite nous avons réfléchie à des idées pour améliorer notre application.
 * Faire un bouton Importation de fichier -- > ça permet à l'utilisateur d'importer une vidéo pour ensuite la publier
 * Faire un bouton Supprimer pour qu'on puisse supprimer la vidéo qu'on a poster
 
+**⚠️Attention⚠️** dans le code JavaScript pour le bouton télécharger, supprimer et importer nous aurons besoin d'autre focntion qui
+nous permet mettre à jour les vidéos dans le stockage local, pour charger les vidéos depuis le stockage local lors du chargement de la page.
+
+**Code des focntion JavaScript**
+![alt text](image-10.png) ![alt text](image-11.png)
+
 **Etape 4 : La page de connexion**
 Pour la page de connexion nous avons utiliser le language JavaScript pour que notre application est des interactions et dynamique.
 Ce language nous sert pour la page de connexion de notre application, le bouton du téléchargement, le bouton supprimer et enfin le
@@ -75,3 +81,4 @@ Notre chef d'équipe avais proposer une idée de faire un bouton qui permet à l
 application.
 
 **Code JavaScript pour le bouton importer**
+![alt text](image-9.png)
