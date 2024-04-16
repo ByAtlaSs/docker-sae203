@@ -51,5 +51,5 @@ Pour la page de connexion nous avons utiliser le language JavaScript pour que no
 Ce language nous sert pour la page de connexion de notre application, le bouton du téléchargement, le bouton supprimer et enfin le
 bouton d'importer.
 
-**Représentation du code**
-
+**Représentation du code JavaScrip du Login**			**|**		**Représentation final de la page de Connexion**
+![alt text](image-2.png)								**|**		
