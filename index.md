@@ -60,4 +60,10 @@ Pour le bouton téléchargement nous utiliser un site internet qui nous permet d
 en lecteur MP4.
 
 **Démonstration**				**|**		**Code JavaScript**
-![alt text](image-4.png)		**|**
+![alt text](image-4.png)		**|**		![alt text](image-5.png) ![alt text](image-6.png)
+
+
+**Etape 6 : Le bouton Supprimer**
+Pour le bouton supprimer c'est la même chose que le bouton télécharger on le procède le code dans le même fichier
+
+**JavaScript pour le bouton supprimer**
