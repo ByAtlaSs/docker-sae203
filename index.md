@@ -6,7 +6,7 @@
 
 **IUT Le Havre - Projet_SAE**
 
-### Compte-rendu du Projet_SAE
+## Compte-rendu du Projet_SAE
 
 **Objectif**
 
@@ -16,34 +16,28 @@ Pour notre projet nous avons décider de faire une application qui permet aux ut
 
 **Liste des commandes utiliser**
 
-**.** git add
-
-**.** git commit -m
-
-**.** git push
-
-**.** git pull
-
-**.** git checkout
-
-**.** git add
-
-**.** docker ps -a
-
-**.** docker run -d -p 8080:80 nom_image
-
-**.** docker build -t nom_image .
-
+```
+- git add
+- git commit -m
+- git push
+- git pull
+- git checkout
+- git add
+- docker ps -a
+- docker run -d -p 8080:80 nom_image
+- docker build -t nom_image .
+```
 **------------------------------------------------------------------------**
 
-## Partie HTML, CSS, JavaScript
+### Partie HTML, CSS, JavaScript
 
 **Etape 1**
-Au tout début nous avons commencer à créer un tout nouveau répertoir dans Githube pour que notre groupe puisse avoir
-un moyen de communication pour se partager les dossiers de notre projet Voici l'arborescence du projet:
+Tout d'abord, nous avons commencer à créer un tout nouveau répertoir dans Github pour que le groupe puisse avoir
+un moyen de communication pour se partager les dossiers de notre projet.
+
+Voici l'arborescence du projet:
 
 ![alt text](./img/image.png)
-
 
 **Etape 2**
 Pour commencer notre projet nous avons commencer à programmer en HTML et CSS la base de notre application. Voire figure ci-dessous
@@ -51,7 +45,7 @@ Pour commencer notre projet nous avons commencer à programmer en HTML et CSS la
 ![alt text](./img/image-1.png)
 
 **Etape 3**
-Ensuite nous avons réfléchie à des idées pour améliorer notre application.
+Ensuite nous avons proposer des idées pour améliorer notre application.
 
 **Liste des idées à mettre dans notre application**
 
@@ -60,14 +54,14 @@ Ensuite nous avons réfléchie à des idées pour améliorer notre application.
 * Faire un bouton Importation de fichier -- > ça permet à l'utilisateur d'importer une vidéo pour ensuite la publier
 * Faire un bouton Supprimer pour qu'on puisse supprimer la vidéo qu'on a poster
 
-**⚠️Attention⚠️** dans le code JavaScript pour le bouton télécharger, supprimer et importer nous aurons besoin d'autre focntion qui
-nous permet mettre à jour les vidéos dans le stockage local, pour charger les vidéos depuis le stockage local lors du chargement de la page.
+**⚠️Attention⚠️** dans le code JavaScript pour le bouton télécharger, supprimer et importer nous avons eu besoin d'avoir des autres fonction qui
+nous permettais de mettre à jour les vidéos dans le stockage local, pour charger les vidéos depuis le stockage local lors du chargement de la page.
 
 **Code des focntion JavaScript**
 ![alt text](./img/image-10.png) ![alt text](./img/image-11.png)
 
 **Etape 4 : La page de connexion**
-Pour la page de connexion nous avons utiliser le language JavaScript pour que notre application est des interactions et soit dynamique.
+Pour la page de connexion nous avons utiliser le language JavaScript pour que notre application soit dynamique et interactive.
 Ce language nous sert pour la page de connexion de notre application, le bouton du téléchargement, le bouton supprimer et enfin le
 bouton d'importer.
 
@@ -102,7 +96,7 @@ application.
 ## Partie Docker
 
 **Etape 1**
-Nous devons créer un fichier qui est Dockerfile qui est un fichier texte qui contient toutes les instructions nécessaires pour construire une image Docker. Une image Docker est un modèle de déploiement léger et portable qui contient tout le nécessaire pour exécuter une application, y compris le code, les bibliothèques, les dépendances, les variables d'environnement et les fichiers de configuration.
+Nous devons créer un fichier Dockerfile , un fichier texte qui contient toutes les instructions nécessaires pour construire une image Docker. Une image Docker est un modèle de déploiement léger et portable qui contient tout le nécessaire pour exécuter une application, y compris le code, les bibliothèques, les dépendances, les variables d'environnement et les fichiers de configuration.
 
 **Fichier Dockerfile**
 
@@ -110,9 +104,9 @@ Nous devons créer un fichier qui est Dockerfile qui est un fichier texte qui co
 
 
 **Etape 2**
-Nous allons taper la commande : docker buil -t nom_image .
+Nous avons déployer l'image avec la commande : ```docker build -t nom_image ```
 Cette commande permet de créer l'image qu'on veut en lui donnant un nom.
-Ensuite nous allons taper la commande : docker run -d -p 8080:80 nom_image
+Ensuite le rendre opérationnel avec la commande : ```docker run -d -p 8080:80 nom_image```
 
-Enfin pour vérifier que ça à bien marcher vérfier que votre serveur à bien été créer dans votre logiciel Docker
-vous pouvez où sinon de taper la commande : docker ps -a
+Enfin pour vérifier que tout fonctionne,  il ne faut pas oublier de vérfier que le serveur a bien été créer dans votre logiciel Docker.
+Pour plus de sureté , la commande : ```docker ps -a``` permet de voir les états images en cours.
