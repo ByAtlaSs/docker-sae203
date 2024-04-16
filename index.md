@@ -66,4 +66,12 @@ en lecteur MP4.
 **Etape 6 : Le bouton Supprimer**
 Pour le bouton supprimer c'est la même chose que le bouton télécharger on le procède le code dans le même fichier
 
-**JavaScript pour le bouton supprimer**
+**Code JavaScript pour le bouton supprimer**
+![alt text](image-7.png)
+![alt text](image-8.png)
+
+**Etape 7 : Le bouton Importer**
+Notre chef d'équipe avais proposer une idée de faire un bouton qui permet à l'utilisateur de importer une vidéo dans notre
+application.
+
+**Code JavaScript pour le bouton importer**
