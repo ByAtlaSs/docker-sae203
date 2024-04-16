@@ -91,3 +91,11 @@ application.
 Nous devons créer un fichier qui est Dockerfile qui est un fichier texte qui contient toutes les instructions nécessaires pour construire une image Docker. Une image Docker est un modèle de déploiement léger et portable qui contient tout le nécessaire pour exécuter une application, y compris le code, les bibliothèques, les dépendances, les variables d'environnement et les fichiers de configuration.
 
 **Fichier Dockerfile**
+![alt text](image-12.png)
+
+**Etape 2**
+Nous allons taper la commande : docker buil -t <nom image> .
+Cette commande permet de créer l'image qu'on veut en lui donnant un nom.
+Ensuite nous allons taper la commande : docker run -d -p 8080:80 <nom image>
+
+Enfin pour vérifier que ça à bien marcher vérfier que votre serveur à été bien 
