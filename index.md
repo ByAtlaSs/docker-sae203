@@ -100,6 +100,7 @@ application.
 Nous devons créer un fichier qui est Dockerfile qui est un fichier texte qui contient toutes les instructions nécessaires pour construire une image Docker. Une image Docker est un modèle de déploiement léger et portable qui contient tout le nécessaire pour exécuter une application, y compris le code, les bibliothèques, les dépendances, les variables d'environnement et les fichiers de configuration.
 
 **Fichier Dockerfile**
+
 ![alt text](./img/image-12.png)
 
 
