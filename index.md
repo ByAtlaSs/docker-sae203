@@ -30,9 +30,9 @@ Pour notre projet nous avons décider de faire une application qui permet aux ut
 
 **.** docker ps -a
 
-**.** docker run -d -p 8080:80 <nom image>
+**.** docker run -d -p 8080:80 nom_image
 
-**.** docker build -t <nom image> .
+**.** docker build -t nom_image .
 
 **------------------------------------------------------------------------**
 
@@ -111,9 +111,9 @@ Nous devons créer un fichier qui est Dockerfile qui est un fichier texte qui co
 
 
 **Etape 2**
-Nous allons taper la commande : docker buil -t <nom image> .
+Nous allons taper la commande : docker buil -t nom_image .
 Cette commande permet de créer l'image qu'on veut en lui donnant un nom.
-Ensuite nous allons taper la commande : docker run -d -p 8080:80 <nom image>
+Ensuite nous allons taper la commande : docker run -d -p 8080:80 nom_image
 
 Enfin pour vérifier que ça à bien marcher vérfier que votre serveur à bien été créer dans votre logiciel Docker
 vous pouvez où sinon de taper la commande : docker ps -a
