@@ -1,11 +1,9 @@
 const videoCardContainer = document.querySelector('.video-container');
 
-let api_key = "your api key";
 let video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 
 fetch(video_http + new URLSearchParams({
-    key: api_key,
     part: 'snippet',
     chart: 'mostPopular',
     maxResults: 50,
@@ -58,3 +56,41 @@ searchBtn.addEventListener('click', () => {
         location.href = searchLink + searchInput.value;
     }
 })
+
+// Fonction pour ajouter une vidéo locale au conteneur de vidéos avec un bouton de téléchargement
+function addLocalVideo(videoURL, downloadURL) {
+    const videoElement = document.createElement('div');
+    videoElement.classList.add('video');
+
+    videoElement.innerHTML = `
+        <div class="video">
+            <video controls width="400" height="225">
+                <source src="${videoURL}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="content">
+                <div class="info">
+                    <h4 class="title">Vidéo locale ajoutée</h4>
+                    <p class="channel-name">Utilisateur</p>
+                    <button class="download-button" data-url="${downloadURL}">Télécharger</button>
+                </div>
+            </div>
+        </div>
+    `;
+
+    videoContainer.appendChild(videoElement);
+}
+
+// Exemple : Ajouter une vidéo locale avec un lien de téléchargement spécifique
+addLocalVideo('./videos/miaou.mp4', 'https://softparade.net/download/file?id=32271871.661dc6041922e6.98669386');
+addLocalVideo('./videos/anime.mp4', 'https://softparade.net/download/file?id=32271859.661dc59eb75277.19676178');
+addLocalVideo('./videos/pays.mp4', 'https://softparade.net/download/file?id=32271869.661dc5be7faab6.97168496');
+
+// Sélectionner tous les boutons de téléchargement et ajouter un gestionnaire d'événements pour le téléchargement
+const downloadButtons = document.querySelectorAll('.download-button');
+downloadButtons.forEach(button => {
+    button.addEventListener('click', function(event) {
+        const downloadURL = this.getAttribute('data-url');
+        window.location.href = downloadURL;
+    });
+});
