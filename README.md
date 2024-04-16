@@ -35,13 +35,13 @@
   ```docker build -t youtube.```
 
 ### Exécutez l'image avec docker run :
-  ```docker run -d -p 8080:80 youtube```
+  ```docker run -d -p 80:8080 youtube```
 
 ### Vérifiez que le conteneur est en cours d'exécution avec docker ps :
   ```docker ps```
 
 ### Pour voir le résultat, ouvrez un navigateur et allez à l'adresse suivante :
-  ```http://localhost:8080```
+  ```http://localhost:80```
 
 ### Pour arrêter le conteneur, utilisez la commande suivante :
   ```docker stop youtube```
