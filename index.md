@@ -52,4 +52,12 @@ Ce language nous sert pour la page de connexion de notre application, le bouton 
 bouton d'importer.
 
 **Représentation du code JavaScrip du Login**			**|**		**Représentation final de la page de Connexion**
-![alt text](image-2.png)								**|**		
+![alt text](image-2.png)								**|**		![alt text](image-3.png)
+
+
+**Etape 5 : Le bouton Téléchargement**
+Pour le bouton téléchargement nous utiliser un site internet qui nous permet d'avoir le lien de notre vidéo en public et de l'avoir
+en lecteur MP4.
+
+**Démonstration**				**|**		**Code JavaScript**
+![alt text](image-4.png)		**|**
