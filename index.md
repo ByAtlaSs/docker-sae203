@@ -16,17 +16,23 @@ Pour notre projet nous avons décider de faire une application qui permet aux ut
 
 **Liste des commandes utiliser**
 
-**.** git add				**|**	**.** docker build -t <nom image> .
+**.** git add
 
-**.** git commit -m			**|**	**.** docker run -d -p 8080:80
+**.** git commit -m
 
-**.** git push				**|**	**.** docker ps -a
+**.** git push
 
-**.** git pull				**|**
+**.** git pull
 
-**.** git checkout			**|**
+**.** git checkout
 
-**.** git add				**|**
+**.** git add
+
+**.** docker ps -a
+
+**.** docker run -d -p 8080:80 <nom image>
+
+**.** docker build -t <nom image> .
 
 **------------------------------------------------------------------------**
 
@@ -109,4 +115,5 @@ Nous allons taper la commande : docker buil -t <nom image> .
 Cette commande permet de créer l'image qu'on veut en lui donnant un nom.
 Ensuite nous allons taper la commande : docker run -d -p 8080:80 <nom image>
 
-Enfin pour vérifier que ça à bien marcher vérfier que votre serveur à été bien 
+Enfin pour vérifier que ça à bien marcher vérfier que votre serveur à bien été créer dans votre logiciel Docker
+vous pouvez où sinon de taper la commande : docker ps -a
