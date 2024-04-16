@@ -23,6 +23,8 @@ Pour notre projet nous avons décider de faire une application qui permet aux ut
 **.** git add				**|**
 **------------------------------------------------------------------------**
 
+## Partie HTML, CSS, JavaScript
+
 **Etape 1**
 Au tout début nous avons commencer à créer un tout nouveau répertoir dans Githube pour que notre groupe puisse avoir
 un moyen de communication pour se partager les dossiers de notre projet se qui donne comme ceci :
@@ -82,3 +84,10 @@ application.
 
 **Code JavaScript pour le bouton importer**
 ![alt text](image-9.png)
+
+## Partie Docker
+
+**Etape 1**
+Nous devons créer un fichier qui est Dockerfile qui est un fichier texte qui contient toutes les instructions nécessaires pour construire une image Docker. Une image Docker est un modèle de déploiement léger et portable qui contient tout le nécessaire pour exécuter une application, y compris le code, les bibliothèques, les dépendances, les variables d'environnement et les fichiers de configuration.
+
+**Fichier Dockerfile**
