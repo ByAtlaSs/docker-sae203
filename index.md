@@ -13,14 +13,21 @@
 Pour notre projet nous avons décider de faire une application qui permet aux utilisateurs de regarder des vidéos à leur demande.
 
 **------------------------------------------------------------------------**
+
 **Liste des commandes utiliser**
 
 **.** git add				**|**	**.** docker build -t <nom image> .
+
 **.** git commit -m			**|**	**.** docker run -d -p 8080:80
+
 **.** git push				**|**	**.** docker ps -a
+
 **.** git pull				**|**
+
 **.** git checkout			**|**
+
 **.** git add				**|**
+
 **------------------------------------------------------------------------**
 
 ## Partie HTML, CSS, JavaScript
@@ -76,6 +83,7 @@ Pour le bouton supprimer c'est la même chose que le bouton télécharger on le 
 
 **Code JavaScript pour le bouton supprimer**
 ![alt text](./img/image-7.png)
+
 ![alt text](./img/image-8.png)
 
 **Etape 7 : Le bouton Importer**
@@ -85,6 +93,7 @@ application.
 **Code JavaScript pour le bouton importer**
 ![alt text](./img/image-9.png)
 
+
 ## Partie Docker
 
 **Etape 1**
@@ -92,6 +101,7 @@ Nous devons créer un fichier qui est Dockerfile qui est un fichier texte qui co
 
 **Fichier Dockerfile**
 ![alt text](./img/image-12.png)
+
 
 **Etape 2**
 Nous allons taper la commande : docker buil -t <nom image> .
